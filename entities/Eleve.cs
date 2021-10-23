@@ -59,7 +59,9 @@ namespace NotEdu.entities
                     lines.Add("");
                 }
 
-                lines.Add("    Moyenne de l'élève : " + MathUtils.FormatNote(MathUtils.ArrondirNote(somme / Resultats.Count)));
+                string Moyenne = MathUtils.FormatNote(MathUtils.ArrondirNote(somme / Resultats.Count));
+                lines.Add("    Moyenne de l'élève : " + Moyenne );
+                lines.Add($"{Moyenne}");
             }
             else
             {
