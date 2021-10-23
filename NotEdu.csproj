@@ -61,6 +61,7 @@
     <Compile Include="screens\MainScreen.cs" />
     <Compile Include="screens\generique\NavigableScreen.cs" />
     <Compile Include="screens\cours\SuppressionCoursScreen.cs" />
+    <Compile Include="screens\promotion\Moyenne_promo.cs" />
     <Compile Include="screens\promotion\PromotionScreen.cs" />
     <Compile Include="utils\ConsoleUtils.cs" />
     <Compile Include="utils\FileUtils.cs" />
